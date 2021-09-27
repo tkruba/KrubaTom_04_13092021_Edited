@@ -5,6 +5,13 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+
+body,
+#hero-bloc {
+    overflow-x: hidden;
+    position: relative;
 }
 
 a,
@@ -91,7 +98,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -362,6 +369,41 @@ a:hover {
     z-index: 2;
 }
 
+#bloc-2-services h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
+
+figure {
+    padding: 16px;
+}
+
+q {
+    font-size: 20px;
+    font-style: italic;
+    color: #575757;
+}
+
+figcaption {
+    color: #575757;
+}
+
+.self-description {
+    color: #575757;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 0 8em;
+}
+
+.social > .col-sm-3 {
+    float: left;
+    width: 25%;
+    
+}
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -514,7 +556,7 @@ button {
     width: 40px;
     height: 40px;
     position: fixed;
-    bottom: 20px;
+    bottom: 48px;
     right: 20px;
     opacity: 0;
     z-index: 500;
@@ -523,6 +565,7 @@ button {
 
 .scrollToTop span {
     margin-top: 6px;
+    color: #FFFFFF;
 }
 
 .showScrollTop {
@@ -685,10 +728,6 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-}
 
 .cta-hero {
     margin-top: 22px;
@@ -741,6 +780,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    min-width: 100%;
 }
 
 .portfolio-row {
@@ -771,15 +811,17 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    /* background: #F3976C; */
+    background: #C05320;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    /* background: #F3976C; */
+    background: #C05320;
     color: #FFFFFF!important;
 }
 
@@ -797,7 +839,8 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    /* color: #F3976C!important; */
+    background: #C05320;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -810,19 +853,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
