@@ -20,6 +20,10 @@ button {
     outline: none!important;
 }
 
+:focus {
+    outline: mediumorchid solid 4px !important;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
