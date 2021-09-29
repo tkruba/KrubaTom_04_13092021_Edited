@@ -20,7 +20,7 @@ button {
     outline: none!important;
 }
 
-:focus {
+:focus-visible {
     outline: mediumorchid solid 4px !important;
 }
 
